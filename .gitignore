@@ -1,4 +1,41 @@
-# Python 缓存文件
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# 测试和覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 分发文件
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 日志
+*.log
