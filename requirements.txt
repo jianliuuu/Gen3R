@@ -2,16 +2,13 @@ accelerate==1.0.1
 diffusers==0.33.1
 easydict==1.13
 einops==0.8.0
-flash-attn==2.7.0.post2
 imageio==2.35.1
 imageio-ffmpeg==0.5.1
 numpy==1.26.0
 open3d==0.18.0
-torch==2.5.1+cu124
-torch-fidelity==0.3.0
-torchaudio==2.5.1+cu124
-torchmetrics==1.4.3
-torchvision==0.20.1+cu124
 tqdm==4.66.5
 transformers==4.46.3
-xformers==0.0.28.post3
+xformers==0.0.32.post1
+torch-fidelity==0.3.0
+torchmetrics==1.4.3
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl

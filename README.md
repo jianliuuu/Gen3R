@@ -39,6 +39,8 @@ cd Gen3R
 ```bash
 conda create -n gen3r python=3.11.2 -y
 conda activate gen3r
+# 自用修改，支持5090
+pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128 
 pip install -r requirements.txt
 ```
 3. (**Important**) Download pretrained Gen3R checkpoint from [HuggingFace](https://huggingface.co/JaceyH919/Gen3R) to ./checkpoints
